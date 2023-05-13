@@ -1,0 +1,300 @@
+.header{
+	background: rgba(217, 0, 0, 0.35);
+}
+.container{
+max-width: 1300px;
+margin: 0 auto;
+}
+.container__header{
+	display: flex;
+	justify-content: space-around;
+
+}
+.logo{
+font-family: 'Kelly Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 116px;
+
+color: #7C2B40;
+}
+.nav{
+margin: auto 0;
+}
+.menu{
+	display: flex;
+}
+.item__menu{
+	margin-right: 50px;
+	list-style: none;
+}
+.link__menu{
+	text-decoration: none;
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 164.06%;
+/* or 39px */
+
+letter-spacing: 0.1em;
+
+color: #2D203A;
+}
+
+.link__menu:hover{
+	color: yellow;
+}
+
+.item__menu:first-child .link__menu{
+	color: red;
+}
+.item__menu:first-child .link__menu:hover{
+	color: yellow;
+}
+.item__menu:last-child a:hover{
+	color: green;
+}
+
+
+/*------------Hero_Block-----------------*/
+.hero__block{
+	
+	background: rgba(217, 0, 0, 0.35);
+
+}
+
+.container__heroBlock{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 200px;
+}
+.img__hero__block{
+	height: 160px;
+   /*margin-right:auto ;*/
+  
+   padding-left: 30px;
+}
+.title__HB{
+	
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 5%;
+/* or 2px */
+
+letter-spacing: 0.2em;
+
+color: #2D203A;
+}
+.text__hb{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 200%;
+/* or 32px */
+max-width: 443px;
+
+color: #2D203A;
+}
+.btn__hb{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 164.06%;
+/* or 39px */
+
+letter-spacing: 0.1em;
+background: #FECB30;
+border-radius: 50px;
+border: none;
+padding: 5px 10px;
+}
+
+/*--------About-----------*/
+.about{
+	background: #DAC2F6;
+}
+.content__about{
+	display: flex;
+	padding-bottom: 135px;
+	justify-content: space-between;
+}
+
+.item__about{
+	list-style: none;
+}
+
+.title__about{
+	margin-top: 0;
+	padding-top: 30px;
+	text-align: center;
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+
+color: #2D203A;
+
+}
+.text__about{
+	text-align: center;
+}
+
+.list__about{
+	padding-left: 0;
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height */
+
+text-align: center;
+
+color: #2D203A;
+}
+
+.bar{
+background: #C4C4C4;
+width: 445px;
+height: 4px;
+}
+.bar__sub{
+height: 100%;
+width: 85%;
+background: #7C2B40;
+}
+.bar__sub2{
+height: 100%;
+width: 65%;
+background: #7C2B40;
+}
+.bar__sub3{
+height: 100%;
+width: 55%;
+background: #7C2B40;
+}
+.txt__bar{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+color: #7C2B40;
+text-align: left;
+}
+
+/*------видео-----*/
+.video{
+	background: rgba(217, 0, 0, 0.35);
+}
+.title__video{
+	text-align: center;
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+
+
+
+color: #2D203A;
+margin-top: 0;
+padding-top:70px ;
+}
+
+#text__video{
+	
+}
+.text__video{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #7C2B40;
+}
+.video__tube{
+	padding: 70px 0;
+	margin: 0 auto;
+	display:block ;
+}
+
+/*галлерея*/
+.item__gal{
+	list-style: none;
+}
+.gal__list{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.item__gal{
+width: 25%;
+list-style: none;
+margin-top: -5px;
+}
+.img__gal{
+	width: 100%;
+}
+/*footer*/
+.footer{
+	background: #7C2B40;
+	margin-top: -5px;
+}
+.name{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+
+color: #FFFFE3;
+}
+.date{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+
+color: #FFFFE3;
+}
+.footer__con{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer__imges{
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+.item__footer{
+	list-style: none;
+}
+.soc{
+	width: 40px;
+	margin-right: 20px;
+}
+
+/*arrow*/
+.arrowUp{
+	width: 80px;
+	position: fixed;
+	top: 100;
+	bottom: 0;
+	right: 0;
+	margin: 20px;
+}
